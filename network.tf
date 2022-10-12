@@ -86,7 +86,7 @@ resource "azurerm_network_security_group" "sg" {
 
 
   security_rule {
-    name                       = "etcd server client API"
+    name                       = "Services Ports"
     priority                   = 106
     direction                  = "Inbound"
     access                     = "Allow"
